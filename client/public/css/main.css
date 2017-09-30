@@ -1,3 +1,11 @@
 body {
-  /*background: green;*/
+  background: blue;
+}
+
+nav {
+  background-color: #A4001D;
+}
+
+nav .brand-logo, .rightNav {
+  color: #FFFF00;
 }
