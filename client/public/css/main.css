@@ -1,5 +1,5 @@
 body {
-  background: blue;
+  background: #ffffff;
 }
 
 nav {
@@ -7,5 +7,5 @@ nav {
 }
 
 nav .brand-logo, .rightNav {
-  color: #FFFF00;
+  color: #ffffff;
 }
