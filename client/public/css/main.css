@@ -1,11 +1,59 @@
-/*body {
+body {
   background: #ffffff;
 }
-
 nav {
-  background-color: #A4001D;
+  background: transparent;
+  height: 400px;
+}
+#burgertron {
+  background-image:url("./burger.jpeg");
+  background-size: cover;
+  background-position: center;
+  border: solid 1px black;
+  height: 400px;
+}
+.social {
+margin: 10px;
 }
 
-nav .brand-logo, .rightNav {
-  color: #ffffff;
-}*/
+#ordernow {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+#orderpanel {
+  margin-top: 35px;
+  background-color: lightgrey;
+}
+#orderbutton {
+  background-color: black;
+}
+
+#burgicon {
+  width: 10px;
+  height: 10px;
+}
+
+
+
+/* MAKE FOOTER STICK TO THE BOTTOM*/
+.page-footer {
+  background-color: #000000;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+}
+/* MAKE FOOTER STICK TO THE BOTTOM*/
