@@ -9,7 +9,7 @@ nav {
   background-image:url("./burger.jpeg");
   background-size: cover;
   background-position: center;
-  border: solid 1px black;
+  border: solid .1px black;
   height: 400px;
 }
 .social {
@@ -25,15 +25,14 @@ margin: 10px;
 
 #orderpanel {
   margin-top: 35px;
+
   background-color: lightgrey;
 }
 #orderbutton {
   background-color: black;
 }
-
-#burgicon {
-  width: 10px;
-  height: 10px;
+.brand-logo {
+  margin: 10px;
 }
 
 
@@ -42,12 +41,12 @@ margin: 10px;
 .page-footer {
   background-color: #000000;
 }
-html {
+/*html {
     position: relative;
     min-height: 100%;
 }
 body {
-    margin: 0 0 100px; /* bottom = footer height */
+    margin: 0 0 100px;
 }
 footer {
     position: absolute;
@@ -55,5 +54,5 @@ footer {
     bottom: 0;
     width: 100%;
     overflow:hidden;
-}
+}*/
 /* MAKE FOOTER STICK TO THE BOTTOM*/
