@@ -9,7 +9,7 @@ nav {
   background-image:url("./burger.jpeg");
   background-size: cover;
   background-position: center;
-  border: solid .1px black;
+  border: solid .25px black;
   height: 400px;
 }
 .social {
