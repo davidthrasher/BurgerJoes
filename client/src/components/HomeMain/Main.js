@@ -10,7 +10,7 @@ const Main = () =>
                 Welcome to Burger Joe's!
               </div>
               <span id="ordernow">
-                <a id= "orderbutton" className="waves-effect waves-light btn-large"><i className="material-icons right">mood</i>Order Now</a>
+                <a href="/menu" id= "orderbutton" className="waves-effect waves-light btn-large"><i className="material-icons right">mood</i>Order Now</a>
             </span>
           </div>
         </div>

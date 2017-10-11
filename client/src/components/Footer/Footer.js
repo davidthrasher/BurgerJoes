@@ -12,10 +12,10 @@ const Footer = () =>
              </div>
              <div className="col l4 offset-l2 s12">
                <ul>
-                 <li><a className="grey-text text-lighten-3" href="#!">Contact Us</a></li>
-                 <li><a className="grey-text text-lighten-3" href="#!">Careers</a></li>
-                 <li><a className="grey-text text-lighten-3" href="#!">Our Story</a></li>
-                 <li><a className="grey-text text-lighten-3" href="#!">About The Developers</a></li>
+                 <li><a className="grey-text text-lighten-3" href="/contact">Contact Us</a></li>
+                 <li><a className="grey-text text-lighten-3" href="/careers">Careers</a></li>
+                 <li><a className="grey-text text-lighten-3" href="/story">Our Story</a></li>
+                 <li><a className="grey-text text-lighten-3" href="/aboutthedevs">About The Developers</a></li>
                </ul>
              </div>
            </div>
