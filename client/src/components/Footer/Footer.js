@@ -8,7 +8,7 @@ const Footer = () =>
                <h5 className="white-text">Connect with us!</h5>
                <a href="#" target="_blank"><img src="./SocialIcons/facebook.png" className="social" alt="Facebook" /></a>
                <a href="#" target="_blank"><img src="./SocialIcons/instagram.png" className="social" alt="Instagram" /></a>
-               <a href="#" target="_blank"><img src="./SocialIcons/twitter.png" className="social" alt="Twitter" /></a>
+               <a href="https://twitter.com/BurgerJoesAtl" target="_blank"><img src="./SocialIcons/twitter.png" className="social" alt="Twitter" /></a>
              </div>
              <div className="col l4 offset-l2 s12">
                <ul>
