@@ -31,7 +31,8 @@ width: 35px;
   color: #000000;
 }
 #orderbutton {
-  background-color: black;
+  background-color: #b02b23;
+  border: 3px solid #000000;
 }
 .brand-logo {
   margin: 10px;
