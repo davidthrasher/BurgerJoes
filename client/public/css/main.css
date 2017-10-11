@@ -1,6 +1,13 @@
 body {
   background: #ffffff;
-}
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
 nav {
   background: transparent;
   height: 400px;
@@ -25,7 +32,7 @@ margin: 10px;
 
 #orderpanel {
   margin-top: 35px;
-
+  margin-bottom: 35px;
   background-color: lightgrey;
 }
 #orderbutton {
@@ -37,22 +44,8 @@ margin: 10px;
 
 
 
-/* MAKE FOOTER STICK TO THE BOTTOM*/
+
 .page-footer {
   background-color: #000000;
+  bottom: 0;
 }
-/*html {
-    position: relative;
-    min-height: 100%;
-}
-body {
-    margin: 0 0 100px;
-}
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    overflow:hidden;
-}*/
-/* MAKE FOOTER STICK TO THE BOTTOM*/
