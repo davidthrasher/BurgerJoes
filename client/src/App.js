@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Nav from './components/Nav/Nav.js';
-import Jumbotron from './components/Jumbotron/Jumbotron.js';
+import Nav from './components/Navbar/Navbar.js';
 import Footer from './components/Footer/Footer.js';
 import Main from './components/HomeMain/Main.js';
 
@@ -10,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <Jumbotron />
+        <Nav />
         <Main />
         <Footer />
       </div>

@@ -1,39 +1,34 @@
 body {
   background: #ffffff;
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
- }
-
- main {
-   flex: 1 0 auto;
- }
-nav {
-  background: transparent;
-  height: 400px;
-}
-#burgertron {
   background-image:url("./burger.jpeg");
   background-size: cover;
   background-position: center;
-  border: solid .25px black;
-  height: 400px;
+}
+nav {
+  background: transparent;
+  height: 175px;
 }
 .social {
 margin: 10px;
+height: 35px;
+width: 35px;
 }
 
+#homeheader {
+
+  margin-top: 25px;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-text-stroke-width: .5px;
+-webkit-text-stroke-color: #000000;
+}
 #ordernow {
   font-family: 'Cutive Mono', monospace;
   font-size: 50px;
   text-align: center;
   color: #000000;
-}
-
-#orderpanel {
-  margin-top: 35px;
-  margin-bottom: 35px;
-  background-color: lightgrey;
 }
 #orderbutton {
   background-color: black;
@@ -41,11 +36,23 @@ margin: 10px;
 .brand-logo {
   margin: 10px;
 }
-
-
-
-
+/* MAKE FOOTER STICK TO THE BOTTOM*/
 .page-footer {
   background-color: #000000;
-  bottom: 0;
 }
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    overflow: auto;
+}
+/* MAKE FOOTER STICK TO THE BOTTOM*/

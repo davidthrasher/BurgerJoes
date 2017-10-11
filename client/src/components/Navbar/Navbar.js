@@ -1,8 +1,7 @@
 import React from "react";
 
-const Jumbotron = () =>
+const Navbar = () =>
 <header>
-  <div id="burgertron" className="jumbotron">
     <div className="container-fluid">
       <nav>
         <div className="nav-wrapper">
@@ -23,6 +22,5 @@ const Jumbotron = () =>
         </div>
       </nav>
     </div>
-  </div>
 </header>
-export default Jumbotron;
+export default Navbar;
