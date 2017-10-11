@@ -22,7 +22,7 @@ const Footer = () =>
          </div>
          <div className="footer-copyright">
            <div className="container">
-           © 2017 Burger Joes
+           © <span id="footerdate"></span> Burger Joes
            </div>
          </div>
        </footer>
