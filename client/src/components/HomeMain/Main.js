@@ -8,7 +8,7 @@ const Main = () =>
           <div className="center">
 
 
-              <a href="/menu"><img id= "scroll" src="./main.png" alt="Order Now" /></a>
+              <a href="/menu"><img id= "scroll" src="./images/main.png" alt="Order Now" /></a>
               {/* <span id="ordernow">
                 <a href="/menu" id= "orderbutton" className="waves-effect waves-light btn-large"><i className="material-icons right">mood</i>Order Now</a>
             </span> */}
