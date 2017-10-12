@@ -3,6 +3,7 @@ body {
   background-image:url("./burger.jpeg");
   background-size: cover;
   background-position: center;
+  overflow: auto;
 }
 nav {
   background: transparent;
@@ -24,6 +25,24 @@ width: 35px;
   -webkit-text-stroke-width: .5px;
 -webkit-text-stroke-color: #000000;
 }
+
+#scroll {
+  margin-top: 20px;
+  max-width: 80%;
+  max-height: 80%;
+    /*height: auto;
+    width: auto;*/
+}
+
+.image:hover > .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#000;
+    opacity:0.5;
+    border-radius:30px;
+}
+
 #ordernow {
   font-family: 'Cutive Mono', monospace;
   font-size: 50px;

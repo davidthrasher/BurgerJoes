@@ -5,7 +5,7 @@ const Navbar = () =>
     <div className="container-fluid">
       <nav>
         <div className="nav-wrapper">
-          <a href="/" target="_blank"><img src="./BurgerJoesLogo.jpg" className="brand-logo" alt="Burger Joes" /></a>
+          <a href="/"><img src="./BurgerJoesLogo.jpg" className="brand-logo" alt="Burger Joes" /></a>
           <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
           <ul className="right hide-on-med-and-down">
             <li><a href="/login" className="navfont">Login/Sign Up</a></li>
