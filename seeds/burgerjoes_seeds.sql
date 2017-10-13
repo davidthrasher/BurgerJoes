@@ -15,6 +15,7 @@ CREATE TABLE customer(
 
 CREATE TABLE menu(
 	menuID INT AUTO_INCREMENT,
+    menuType VARCHAR (50) NOT NULL,
 	menuItem VARCHAR (50) NOT NULL,
     menuPrice DECIMAL (5,2) NOT NULL,
     PRIMARY KEY (menuID)
