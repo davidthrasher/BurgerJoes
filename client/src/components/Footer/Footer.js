@@ -1,5 +1,8 @@
 import React from "react";
 
+const d = new Date();
+const theYear = d.getFullYear();
+
 const Footer = () =>
     <footer className="page-footer">
          <div className="container">
@@ -22,7 +25,7 @@ const Footer = () =>
          </div>
          <div className="footer-copyright">
            <div className="container">
-           © <span id="footerdate"></span> Burger Joes
+           <div id="footerdate">&copy; { theYear } Burger Joes</div>
            </div>
          </div>
        </footer>
