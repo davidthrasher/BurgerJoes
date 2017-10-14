@@ -11,7 +11,7 @@ module.exports = function(sequelize, DataTypes) {
 			allowNull: false,
 		},
 		customerId: {
-			primaryKey: true,
+			foreignKey: true,
 			autoIncrement: true,
 			type: DataTypes.INTEGER,
 			allowNull: false
