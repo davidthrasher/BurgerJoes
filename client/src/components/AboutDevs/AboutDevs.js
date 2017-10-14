@@ -69,8 +69,8 @@ const AboutDevs = () =>
 
             <div id="devtext" class= "col-md-9">
               <h3 id="devname" class="center">Harrison McCord</h3>
-              <p class="center">James is a Full Stack Developer with a background in music education. Check this guy out on Github or Linkedin below!</p>
-            <p class="center"><a target="_blank" href="https://github.com/musicteachj" class="btn btn-primary" role="button">GitHub</a> <a target="_blank" href="https://www.linkedin.com/in/james-littlefield-93037713b/" class="btn btn-default" role="button">Linkedin</a></p>
+              <p class="center">Harrison is a Full Stack Developer with a background in Computer Science. Check this guy out on Github or Linkedin below!</p>
+            <p class="center"><a target="_blank" href="https://github.com/Proscope" class="btn btn-primary" role="button">GitHub</a> <a target="_blank" href="https://www.linkedin.com/in/harrison-mccord/" class="btn btn-default" role="button">Linkedin</a></p>
             </div>
 
             <div class= "col-md-3">
