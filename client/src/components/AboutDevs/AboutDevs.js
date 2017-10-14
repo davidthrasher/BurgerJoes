@@ -66,11 +66,11 @@ const AboutDevs = () =>
         <div className="card-stacked">
           <div className="card-content">
             <h1>Harrison McCord</h1>
-            <p>An avid fan of all things music and technology, David Thrasher is a Fullstack Developer hailing from Atlanta, Ga. Follow him on his coding adventures by clicking the GitHub and Linkedin links below!</p>
+            <p>A lover of tennis and all things sports, Harrison McCord is a Fullstack Developer hailing from Alpharetta, Ga. Follow him on his coding adventures by clicking the GitHub and Linkedin links below!</p>
           </div>
           <div className="card-action">
-            <a href="#">GitHub</a>
-            <a href="#">Linkedin</a>
+            <a target="_blank" href="https://github.com/Proscope">GitHub</a>
+            <a target="_blank" href="https://www.linkedin.com/in/harrison-mccord/">Linkedin</a>
           </div>
         </div>
       </div>
