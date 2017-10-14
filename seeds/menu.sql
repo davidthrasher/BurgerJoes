@@ -6,3 +6,26 @@ VALUES ("burgers", "Joe's Original", 5.89), ("burgers", "Joe's Original Cheese",
 INSERT INTO menu (menuType, menuItem, menuPrice)
 VALUES ("chicken", "Joe's Original Chicken Sandwich", 6.29), ("chicken", "BBQ Chicken Sandwich", 6.49), 
 ("chicken", "Teriyaki Chicken Sandwich", 6.49), ("chicken", "Chicken Club Sandwich", 6.79);
+
+INSERT INTO menu (menuType, menuItem, menuPrice)
+VALUES ("salads", "Tossed House Salad", 4.99), ("salads", "Grilled Chicken Salad", 6.89), ("salads", "Fried Chicken Salad", 6.89);
+
+INSERT INTO menu (menuType, menuItem, menuPrice)
+VALUES ("tenders", "5pcs", 5.99), ("tenders", "10pcs", 10.99), ("tenders", "15pcs", 15.99), ("tenders", "20pcs", 19.99), 
+("tenders", "25pcs", 24.99), ("tenders", "30pcs", 29.99), ("tenders", "Chicken Tender Platter", 6.79), 
+("tenders", "Kids Meal", 4.99);
+
+INSERT INTO menu (menuType, menuItem)
+VALUES ("sauces", "Mild"), ("sauces", "Medium"), ("sauces", "Hot"), ("sauces", "BBQ"), ("sauces", "Jerk"),
+("sauces", "Bleu Cheese"), ("sauces", "Honey Mustard"), ("sacues", "Teriyaki"), ("sauces", "Ranch"), 
+("sauces", "Lemon Pepper");
+
+INSERT INTO menu (menuType, menuItem, menuPrice)
+VALUES ("sides", "French Fries", 1.99), ("sides", "Onion Rings", 2.99);
+
+INSERT INTO menu (menuType, menuItem, menuPrice)
+VALUES ("desserts", "Apple Pie", 2.99), ("desserts", "A La Mode", 1.50);
+
+INSERT INTO menu (menuType, menuItem, menuPrice)
+VALUES ("extras", "Veggie Burger", 0.50), ("extras", "Double Any Burger", 3.00), ("extras", "Extra Bacon", 0.50), 
+("extras", "Extra Cheese", 0.50);
