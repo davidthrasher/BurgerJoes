@@ -30,6 +30,13 @@ width: 35px;
   background-color: #000000;
 }
 
+.devphotos {
+  height:300px;
+  width: 300px;
+  /*max-width: 50%;
+  max-height: 50%;*/
+}
+
 
 /*Fade in CSS animation====================*/
 header, main {
