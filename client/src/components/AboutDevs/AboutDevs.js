@@ -74,7 +74,7 @@ const AboutDevs = () =>
             </div>
 
             <div class= "col-md-3">
-              <img class="img-responsive center-block" src="images/James.PNG" alt="Picture"/>
+              <img class="img-responsive center-block" src="images/Harrison.PNG" alt="Picture"/>
             </div>
           </div>
         </div>
