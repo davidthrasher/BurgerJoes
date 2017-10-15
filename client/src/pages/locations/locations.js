@@ -10,7 +10,7 @@ class Locations extends Component {
     return (
       <div>
 
-        <Nav />
+        <Nav {...this.props}/>
         <Locate />
         <Footer />
       </div>

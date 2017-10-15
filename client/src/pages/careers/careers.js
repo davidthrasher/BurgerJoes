@@ -9,7 +9,7 @@ class Careers extends Component {
     return (
       <div>
 
-        <Nav />
+        <Nav {...this.props}/>
 
         <Footer />
       </div>

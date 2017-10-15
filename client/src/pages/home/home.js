@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div>
 
-        <Nav />
+        <Nav {...this.props}/>
         <Main />
         <Footer />
       </div>

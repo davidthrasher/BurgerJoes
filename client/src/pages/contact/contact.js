@@ -9,7 +9,7 @@ class Contact extends Component {
     return (
       <div>
 
-        <Nav />
+        <Nav {...this.props}/>
 
         <Footer />
       </div>

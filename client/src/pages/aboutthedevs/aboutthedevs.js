@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <div>
 
-        <Nav />
+        <Nav {...this.props}/>
         <AboutDevs />
         <Footer />
       </div>
