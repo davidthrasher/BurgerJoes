@@ -9,7 +9,7 @@ class Burgerversity extends Component {
     return (
       <div>
 
-        <Nav />
+        <Nav {...this.props}/>
 
         <Footer />
       </div>

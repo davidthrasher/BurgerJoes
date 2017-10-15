@@ -4,8 +4,15 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
+
+main {
+    flex: 1 0 auto;
+}
+
 nav {
   background: transparent;
   height: 175px;
@@ -30,10 +37,16 @@ width: 35px;
   background-color: #000000;
 }
 
-.devphotos {
-  
+.handshake {
+  height: 65%;
+  width: 65%;
+
 }
 
+.ourstory {
+  height: 75%;
+  width: 75%;
+}
 
 /*Fade in CSS animation====================*/
 header, main {
@@ -69,6 +82,11 @@ header, main {
 }
 /*Fade in CSS animation====================*/
 
-@media screen and (min-width: 1024px) {
-  /*make footer stick*/
+@media screen and (min-height: 900px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 }

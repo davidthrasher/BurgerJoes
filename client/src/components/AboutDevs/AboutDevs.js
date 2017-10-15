@@ -48,7 +48,7 @@ const AboutDevs = () =>
         <div className="card-stacked">
           <div className="card-content">
             <h1>Ryan Hardeman</h1>
-            <p>An avid fan of all things music and technology, David Thrasher is a Fullstack Developer hailing from Atlanta, Ga. Follow him on his coding adventures by clicking the GitHub and Linkedin links below!</p>
+            <p>Ryan likes video games and is ready to finish this class! Check out his GitHub and Linkedin below!</p>
           </div>
           <div className="card-action">
             <a href="#">GitHub</a>
