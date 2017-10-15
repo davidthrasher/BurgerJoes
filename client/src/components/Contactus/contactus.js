@@ -30,7 +30,7 @@ const Contact = () =>
                          </div>
                          <div className="row">
                            <div className="input-field col s12">
-                             <button className="btn cyan waves-effect waves-light right" type="submit" name="action">Submit
+                             <button className="btn red darken-4 waves-effect waves-light right" type="submit" name="action">Submit
                                <i className="mdi-content-send right"></i>
                              </button>
                            </div>
