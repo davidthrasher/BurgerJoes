@@ -6,7 +6,8 @@ const Menu = () =>
 
 	<h1 className="center white-text">Menu</h1>
 
-	<div id="menumain" className="row">
+	<div className= "container">
+	<div className="row">
 		<div className="col s6 offset-m2 m4 l3">
 				<p className="white-text">Burgers</p>
 				<a href="/menu/burgers"><img src="./images/foodpics/burgernail.jpg" className="menuitem" alt="Burger Joes"/></a>
@@ -48,6 +49,7 @@ const Menu = () =>
 
 		</div>
 	</div>
+</div>
 
 </main>
 export default Menu;
