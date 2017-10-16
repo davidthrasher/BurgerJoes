@@ -1,11 +1,12 @@
-/*body {
-  background: #ffffff;
-  background-image:url("./burger.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+body {
+  display: flex;
+  flex-direction: column;
+}
 
-}*/
+main {
+  min-height: 75vh;
+  flex: 1 0 auto;
+}
 
 html {
   background: url("./burger.jpeg") no-repeat center center fixed;
@@ -27,8 +28,8 @@ width: 35px;
 
 #scroll {
   margin-top: 20px;
-  max-width: 100%;
-  max-height: 100%;
+  max-width: auto;
+  max-height: auto;
   -webkit-filter: brightness(100%);
 }
 
@@ -60,14 +61,14 @@ width: 35px;
 }
 
 .handshake {
-  height: 65%;
-  width: 65%;
+  height: 100%;
+  width: 100%;
 
 }
 
 .ourstory {
-  height: 75%;
-  width: 75%;
+  height: 100%;
+  width: 100%;
 }
 
 .careers {
@@ -80,9 +81,8 @@ width: 35px;
 }
 
 .menuitem {
-  height: 200px;
-  width: 200px;
   -webkit-filter: brightness(100%);
+  border-radius: 15px;
 }
 
 .menuitem:hover {
