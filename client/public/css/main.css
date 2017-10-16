@@ -70,6 +70,15 @@ width: 35px;
   width: 75%;
 }
 
+.careers {
+  height: 300px;
+  width: 75%;
+}
+
+#applycard {
+  text-align: center;
+}
+
 /*Fade in CSS animation====================*/
 header, main {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
