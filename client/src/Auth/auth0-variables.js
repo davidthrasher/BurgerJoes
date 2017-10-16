@@ -1,5 +1,5 @@
 export const AUTH_CONFIG = {
-  domain: 'sid117.auth0.com',
-  clientId: 'XSBdWXhPJtMpu7_Ye91P1-gKLC7Es6AP',
+  domain: 'burgerjoes.auth0.com',
+  clientId: 'XVUY4EE5PYSeQDVyCQ0Vb_vsA87FYv4M',
   callbackUrl: 'http://localhost:3000/callback'
 }
