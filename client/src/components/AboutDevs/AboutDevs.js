@@ -51,8 +51,8 @@ const AboutDevs = () =>
             <p>Ryan likes video games and is ready to finish this class! Check out his GitHub and Linkedin below!</p>
           </div>
           <div className="card-action">
-            <a target="_blank" href="#">GitHub</a>
-            <a target="_blank" href="#">Linkedin</a>
+            <a target="_blank" href="https://github.com/rkhardeman">GitHub</a>
+            <a target="_blank" href="https://www.linkedin.com/in/rkhardeman/">Linkedin</a>
           </div>
         </div>
       </div>
