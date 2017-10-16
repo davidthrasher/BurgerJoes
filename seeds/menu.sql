@@ -29,3 +29,6 @@ VALUES ("desserts", "Apple Pie", 2.99), ("desserts", "A La Mode", 1.50);
 INSERT INTO menu (menuType, menuItem, menuPrice)
 VALUES ("extras", "Veggie Burger", 0.50), ("extras", "Double Any Burger", 3.00), ("extras", "Extra Bacon", 0.50), 
 ("extras", "Extra Cheese", 0.50);
+
+INSERT INTO menu (menuType, menuItem, menuPrice)
+VALUES ("drinks", "Soft Drinks", 2.49), ("drinks", "Sweet Tea", 2.49), ("drinks", "Tea", 2.49), ("drinks", "Water", 0.00);
