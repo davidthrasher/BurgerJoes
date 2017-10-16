@@ -4,13 +4,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
 
-main {
-    flex: 1 0 auto;
 }
 
 nav {
@@ -82,7 +76,7 @@ header, main {
 }
 /*Fade in CSS animation====================*/
 
-@media screen and (min-height: 900px) {
+@media screen and (min-height: 800px) {
   footer {
     position: absolute;
     bottom: 0;
