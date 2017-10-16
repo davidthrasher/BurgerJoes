@@ -1,10 +1,18 @@
-body {
+/*body {
   background: #ffffff;
   background-image:url("./burger.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
+}*/
+
+html {
+  background: url("./burger.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 nav {
