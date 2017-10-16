@@ -1,6 +1,6 @@
 const db = require("../models");
 
-Defining methods for the MenuController
+// Defining methods for the MenuController
 module.exports = {
   findAll: function(req, res) {
     db.Menu
