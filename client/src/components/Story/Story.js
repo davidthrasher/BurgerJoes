@@ -6,17 +6,17 @@ const Story = () =>
   <h1 className="center white-text">Our Story</h1>
   <div className="container-fluid">
   <div className="row">
-    <div className="col s12 m12 l6">
+    <div className="col offset-s1 s9 m11 l6">
 
         <img src="./images/sourceimages/storyscan.jpg" className="ourstory" alt="Burger Joes"/>
 
     </div>
-    <div className="col s12 m12 l6">
+    <div className="col offset-s1 s10 m12 l6">
 
         <img src="./images/sourceimages/handshake.jpg" className="handshake" alt="Burger Joes"/>
       </div>
 
-    <div className="col s12 m12 l6">
+    <div className="col offset-s1 s10 m12 l6">
 
         <img src="./images/sourceimages/togocounter.jpg" className="handshake" alt="Burger Joes"/>
       </div>
