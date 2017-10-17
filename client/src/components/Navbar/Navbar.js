@@ -54,7 +54,7 @@ class Navbar extends Component {
                             onClick={this.logout.bind(this)}>
                             Sign Out
                           </a>
-                          <a bsStyle="primary">logged in as:{ this.state.name }</a>
+                          <a bsStyle="primary">Logged in as: { this.state.name }</a>
                         </div>
                       )
                   }
