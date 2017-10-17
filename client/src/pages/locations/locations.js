@@ -9,9 +9,13 @@ class Locations extends Component {
   render() {
     return (
       <div>
-
         <Nav {...this.props}/>
-        <Locate />
+         <h4 className="header2 white-text center">Our Locations</h4>
+          <div className= "row">
+            <div className= "col s12 m12 l12">
+            <Locate />
+            </div>
+          </div>
         <Footer />
       </div>
     );
