@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 class Navbar extends Component {
+  state = {
+    name: "",
+  }
+
   goTo(route) {
     this.props.history.replace(`/${route}`)
   }
@@ -14,8 +18,14 @@ class Navbar extends Component {
   }
 
   render() {
-
     const { isAuthenticated } = this.props.auth;
+
+    if(isAuthenticated()) {
+        this.props.auth.getProfile(function(err, user){
+          if(!err)
+            this.setState({name: user.nickname});
+        }.bind(this));
+    }
 
     return (
       <div>
@@ -39,12 +49,15 @@ class Navbar extends Component {
                   }
                   {
                     isAuthenticated() && (
-                        <a
-                          bsStyle="primary"
-                          onClick={this.logout.bind(this)}
-                        >
-                          Sign Out
-                        </a>
+                        <div>
+                          <a
+                            bsStyle="primary"
+                            onClick={this.logout.bind(this)}
+                          >
+                            Sign Out
+                          </a>
+                          <a bsStyle="primary">logged in as:{ this.state.name }</a>
+                        </div>
                       )
                   }
                 </li>

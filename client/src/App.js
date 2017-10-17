@@ -3,7 +3,6 @@ import { Redirect, Route, Router } from 'react-router-dom';
 import Callback from './Callback/Callback';
 
 import Home from "./pages/home/home.js";
-import Login from "./pages/login/login.js";
 import About from "./pages/aboutthedevs/aboutthedevs.js";
 import Burger from "./pages/burgerversity/burgerversity.js";
 import Careers from "./pages/careers/careers.js";
@@ -25,7 +24,7 @@ const handleAuthentication = (nextState, replace) => {
 
 const App = () => {
   return (
-    <Router history={history} component={Login}>
+    <Router history={history} component={Home}>
         <div>
           {/* <Route exact path="/login" render={(props) => <Login auth={auth} {...props} />} /> */}
           <Route exact path="/about" render={(props) => <About auth={auth} {...props} />} />
