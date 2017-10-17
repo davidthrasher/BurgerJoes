@@ -2,9 +2,10 @@ import React from "react"
 import { compose, withProps } from "recompose"
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
-const Locate = compose(
+
+const MyMapComponent = compose(
   withProps({
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places",
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyD7wZUEqqTSwQZmSSwKYS-GRJaOUGalJKg&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `600px` }} />,
     mapElement: <div style={{ height: `100%` }} />,
@@ -16,13 +17,13 @@ const Locate = compose(
     defaultZoom={12}
     defaultCenter={{ lat: 33.7490, lng: -84.3880 }}
   >
-    {props.isMarkerShown && <Marker position={{ lat: 33.7490, lng: -84.3880 }} onClick={props.onMarkerClick} />}
+    {props.isMarkerShown && <Marker position={{ lat: 33.7742991, lng: -84.4074116 }} onClick={props.onMarkerClick} />}
   </GoogleMap>
 )
 
-class MyFancyComponent extends React.PureComponent {
+class Locate extends React.PureComponent {
   state = {
-    isMarkerShown: false,
+    isMarkerShown: true,
   }
 
   componentDidMount() {
@@ -36,13 +37,13 @@ class MyFancyComponent extends React.PureComponent {
   }
 
   handleMarkerClick = () => {
-    this.setState({ isMarkerShown: false })
+    this.setState({ isMarkerShown: true })
     this.delayedShowMarker()
   }
 
   render() {
     return (
-      <Locate
+      <MyMapComponent
         isMarkerShown={this.state.isMarkerShown}
         onMarkerClick={this.handleMarkerClick}
       />
