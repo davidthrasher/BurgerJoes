@@ -77,14 +77,15 @@ class Navbar extends Component {
                     }
                     {
                       isAuthenticated() && (
-                          <div>
-                            <a
-                              bsStyle="primary"
-                              onClick={this.logout.bind(this)}>
-                              Sign Out
-                            </a>
-                            <a bsStyle="primary">logged in as:{ this.state.name }</a>
-                          </div>  
+
+                        <div>
+                          <a
+                            bsStyle="primary"
+                            onClick={this.logout.bind(this)}>
+                            Sign Out
+                          </a>
+                          <a bsStyle="primary">logged in as:{ this.state.name }</a>
+                        </div>
                         )
                     }
                   </li>
