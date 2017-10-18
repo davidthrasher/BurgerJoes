@@ -3,6 +3,7 @@ import { Redirect, Route, Router } from 'react-router-dom';
 import Callback from './Callback/Callback';
 
 import Home from "./pages/home/home.js";
+
 import About from "./pages/aboutthedevs/aboutthedevs.js";
 import Burger from "./pages/burgerversity/burgerversity.js";
 import Careers from "./pages/careers/careers.js";

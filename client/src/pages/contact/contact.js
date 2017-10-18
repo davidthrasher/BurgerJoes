@@ -4,7 +4,6 @@ import Nav from '../../components/Navbar/Navbar.js';
 import Footer from '../../components/Footer/Footer.js';
 import ContactUs from '../../components/Contactus/contactus.js';
 
-
 class Contact extends Component {
   render() {
     return (

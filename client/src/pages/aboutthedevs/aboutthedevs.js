@@ -4,7 +4,6 @@ import Nav from '../../components/Navbar/Navbar.js';
 import Footer from '../../components/Footer/Footer.js';
 import AboutDevs from '../../components/AboutDevs/AboutDevs.js';
 
-
 class About extends Component {
   render() {
     return (
