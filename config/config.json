@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "tiger",
+    "database": "burgerJoes",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "nafllaujdw4cmsvr",
+    "password": "ahrzgjcstm7k05g6",
+    "database": "burgerJoes",
+    "host": "thh2lzgakldp794r.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

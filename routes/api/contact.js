@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const contactController = require("../../controllers/contactController");
 
-Matches with "/api/contact"
+// sMatches with "/api/contact"
 router.route("/")
   .post(contactController.sendMail);
 

@@ -26,7 +26,7 @@ module.exports = function(sequelize, DataTypes) {
 			validate: {
 				len: [5, 2]
 			}
-		};
+		}
 	});
 	Menu.associate = function(models) {
 		Menu.belongsTo(models.OrderDetails, {

@@ -1,7 +1,13 @@
-const db = require("../models");
+// const db = require("../models");
 
 // Defining methods for the MenuController
 module.exports = {
+  orderItems: function(req, res) {
+    console.log(req.body);
+    res.json({
+      status: "Request recieved"
+    })
+  },
   findAll: function(req, res) {
     db.Menu
       .find(req.query)

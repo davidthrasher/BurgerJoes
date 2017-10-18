@@ -55,7 +55,7 @@ module.exports = function(sequelize, DataTypes) {
     		validate: {
     			isEmail: true
     		}
-    	};
+    	}
 	});
 
 	Customer.associate = function(models) {

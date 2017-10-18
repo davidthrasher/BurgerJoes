@@ -1,15 +1,22 @@
 import React, {Component} from "react";
+import axios from 'axios';
 import Modal from '../Modal/Modal'
 import MenuList from './Items'
 
 class MenuItem extends Component {
+		state = {
+			quantity: 0
+		}
+
+		onQuantity(e) {
+				this.setState({quantity: e.target.value});
+				this.props.onQuantity(this.props.item.type, e.target.value);
+		}
+
 		render() {
 			var item = this.props.item;
 			return(
 				<tr>
-            <td>
-                <input type="checkbox" name =""  value=""/>
-            </td>
             <td>
                 <label>{item.type}</label>
             </td>
@@ -17,7 +24,7 @@ class MenuItem extends Component {
                 <label>{item.desc}</label>
             </td>
             <td>
-                <input type="number" min="1" max="50" value="1"/>
+                <input type="number" min="0" max="50" value={this.state.quantity} onChange={this.onQuantity.bind(this)}/>
             </td>
         </tr>
 			);
@@ -45,6 +52,10 @@ class Menu extends Component {
 	state = {
 		modalShow: false
 	}
+
+	currentItem = {
+		types: {}
+	};
 
 	itemList = [
 		{
@@ -90,25 +101,60 @@ class Menu extends Component {
 	];
 
 	openModal(item) {
-		this.currentItem = item
+		this.currentItem.name = item
 		this.setState({modalShow: true});
 	}
 
 	closeModal() {
+		this.currentItem = {
+			types: {}
+		};
 		this.setState({modalShow: false});
+	}
+
+	onOrder() {
+		console.log(this.currentItem);
+		var params = {
+			name: this.currentItem.name,
+			orders: []
+		}
+
+		for(var key in this.currentItem.types) {
+			params.orders.push({
+				type: key,
+				quantity: this.currentItem.types[key]
+			})
+		}
+
+		axios.post('http://localhost:3001/api/menu/order', params)
+		.then(function (response) {
+			console.log(response);
+		})
+		.catch(function (error) {
+			console.log(error);
+		});
+	}
+
+	onQuantity(itemType, quantity) {
+		this.currentItem.types[itemType] = quantity;
 	}
 
 	render() {
 		return(
 			<main>
 
-				<Modal show={this.state.modalShow} onClose={this.closeModal.bind(this)}>
-					<h1>{this.currentItem}</h1>
+				<Modal
+					show={this.state.modalShow}
+					onClose={this.closeModal.bind(this)}
+					btnText="Order"
+					actionHandler={this.onOrder.bind(this)}
+				>
+					<h1>{this.currentItem.name}</h1>
 					<table>
 						{
-							(MenuList[this.currentItem] || []).map(function(menuItem) {
-								return <MenuItem item={menuItem}/>
-							})
+							(MenuList[this.currentItem.name] || []).map(function(menuItem) {
+								return <MenuItem item={menuItem} onQuantity={this.onQuantity.bind(this)}/>
+							}.bind(this))
 						}
 					</table>
 				</Modal>
