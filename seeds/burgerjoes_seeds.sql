@@ -3,12 +3,7 @@ CREATE DATABASE burgerJoes;
 USE burgerJoes;
 CREATE TABLE customer(
 	customerID INT AUTO_INCREMENT,
-    customerFirstName VARCHAR (50) NOT NULL,
-    customerLastName VARCHAR (50),
-    customerPhone VARCHAR (50) NOT NULL,
-    customerState VARCHAR (50) NOT NULL,
-    customerCity VARCHAR (50) NOT NULL,
-    customerZip VARCHAR (50) NOT NULL,
+    customerName VARCHAR (50) NOT NULL,
     customerEmail VARCHAR(50) NOT NULL,
     PRIMARY KEY (customerID)
 );

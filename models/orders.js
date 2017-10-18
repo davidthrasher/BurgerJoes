@@ -2,17 +2,15 @@ module.exports = function(sequelize, DataTypes) {
 	var Orders = sequelize.define("Orders", {
 		orderNumber: {
 			primaryKey: true,
-			autoIncrement: true,
 			type: DataTypes.INTEGER,
 			allowNull: false
 		},
 		orderDate: {
-			type: DataTypes.DATETIME,
+			type: DataTypes.INTEGER,
 			allowNull: false,
 		},
 		customerId: {
 			foreignKey: true,
-			autoIncrement: true,
 			type: DataTypes.INTEGER,
 			allowNull: false
 		},

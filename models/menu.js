@@ -1,11 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
 	var Menu = sequelize.define("Menu", {
-		menuId: {
-			primaryKey: true,
-			autoIncrement: true,
-			type: DataTypes.INTEGER,
-			allowNull: false
-		},
 		menuType: {
 			type: DataTypes.STRING,
 			allowNull: false,
