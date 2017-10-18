@@ -15,10 +15,10 @@ VALUES ("tenders", "5pcs", 5.99), ("tenders", "10pcs", 10.99), ("tenders", "15pc
 ("tenders", "25pcs", 24.99), ("tenders", "30pcs", 29.99), ("tenders", "Chicken Tender Platter", 6.79), 
 ("tenders", "Kids Meal", 4.99);
 
-INSERT INTO menu (menuType, menuItem)
-VALUES ("sauces", "Mild"), ("sauces", "Medium"), ("sauces", "Hot"), ("sauces", "BBQ"), ("sauces", "Jerk"),
-("sauces", "Bleu Cheese"), ("sauces", "Honey Mustard"), ("sacues", "Teriyaki"), ("sauces", "Ranch"), 
-("sauces", "Lemon Pepper");
+INSERT INTO menu (menuType, menuItem, menuPrice)
+VALUES ("sauces", "Mild", 0.00), ("sauces", "Medium", 0.00), ("sauces", "Hot", 0.00), ("sauces", "BBQ", 0.00), ("sauces", "Jerk", 0.00),
+("sauces", "Bleu Cheese", 0.00), ("sauces", "Honey Mustard", 0.00), ("sacues", "Teriyaki", 0.00), ("sauces", "Ranch", 0.00), 
+("sauces", "Lemon Pepper", 0.00);
 
 INSERT INTO menu (menuType, menuItem, menuPrice)
 VALUES ("sides", "French Fries", 1.99), ("sides", "Onion Rings", 2.99);
