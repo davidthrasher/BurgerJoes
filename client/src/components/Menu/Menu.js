@@ -1,6 +1,18 @@
 import React from "react";
+import Modal from './Modal';
+import PropTypes from 'prop-types';
 
-const Menu = () =>
+class App extends Component {
+	constructor(props) {
+	  super(props);
+    this.state = { isOpen: false };
+	}
+
+	toggleModal = () => {
+	  this.setState({
+	    isOpen: !this.state.isOpen
+	  });
+	}
 
 <main>
 
@@ -12,11 +24,15 @@ const Menu = () =>
 				<div className="card-image">
 					<a href="#"><img className="menuitem" src="./images/foodpics/burgernail.jpg" /></a>
 					<span className="card-title">Burgers</span>
-					<a className="btn-floating halfway-fab waves-effect waves-light red" data-target="ordermodal" class="btn modal-trigger"><i className="material-icons">add</i></a>
+					<a onClick={this.toggleModal} className="btn-floating halfway-fab waves-effect waves-light red" ><i className="material-icons">add</i></a>
+					<Modal show={this.state.isOpen} onClose={this.toggleModal}>
+					  Here's some content for the modal
+					</Modal>
 				</div>
-
 			</div>
 		</div>
+
+
 
 		<div className="col s6 m4 l3">
 			<div className="card">
@@ -91,4 +107,5 @@ const Menu = () =>
 	</div>
 
 </main>
+}
 export default Menu;

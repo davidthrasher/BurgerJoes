@@ -40,7 +40,7 @@ class Navbar extends Component {
                   {
                     !isAuthenticated() && (
                         <a
-                          bsStyle="primary"
+                          className="primary"
                           onClick={this.login.bind(this)}>
                           Sign In/Sign Up
                         </a>
@@ -50,11 +50,11 @@ class Navbar extends Component {
                     isAuthenticated() && (
                         <div>
                           <a
-                            bsStyle="primary"
+                            className="primary"
                             onClick={this.logout.bind(this)}>
                             Sign Out
                           </a>
-                          <a bsStyle="primary">Logged in as: { this.state.name }</a>
+                          <a className="primary">Logged in as: { this.state.name }</a>
                         </div>
                       )
                   }
@@ -69,7 +69,7 @@ class Navbar extends Component {
                     {
                       !isAuthenticated() && (
                           <a
-                            bsStyle="primary"
+                            className="primary"
                             onClick={this.login.bind(this)}>
                             Sign In/Sign Up
                           </a>
@@ -80,11 +80,11 @@ class Navbar extends Component {
 
                         <div>
                           <a
-                            bsStyle="primary"
+                            className="primary"
                             onClick={this.logout.bind(this)}>
                             Sign Out
                           </a>
-                          <a bsStyle="primary">logged in as:{ this.state.name }</a>
+                          <a className="primary">logged in as:{ this.state.name }</a>
                         </div>
                         )
                     }
