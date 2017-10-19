@@ -24,13 +24,13 @@ app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-db.sequelize.sync({force: false}).then(function() {
-	app.listen(PORT, function(err) {
-		if (err) throw err;
-		console.log("Listening on port: " + PORT);
-	});
-});
-
-// app.listen(PORT, function() {
-//   console.log(`🌎 ==> Server now on port ${PORT}!`);
+// db.sequelize.sync({force: false}).then(function() {
+// 	app.listen(PORT, function(err) {
+// 		if (err) throw err;
+// 		console.log("Listening on port: " + PORT);
+// 	});
 // });
+
+app.listen(PORT, function() {
+  console.log(`🌎 ==> Server now on port ${PORT}!`);
+});
