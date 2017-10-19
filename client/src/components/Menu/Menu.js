@@ -160,6 +160,8 @@ class Menu extends Component {
 				</Modal>
 
 				<h1 className="center white-text">Menu</h1>
+				
+				<a target="_blank" href="../../menu.pdf" className="waves-effect waves-light btn-large black">Printable Menu</a>
 				<div className="row">
 					{
 						this.itemList.map(function(item){
