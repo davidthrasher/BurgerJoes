@@ -37,7 +37,7 @@ export default {
       desc: 'Mayo, Sautee`d Onions, Pickles, Velveeta Cheese '
     },
   ],
-  'Chicken':[
+  'Chicken Sandwiches':[
     {
       type: 'Joe’s Original Chicken Sandwich ... $6.29 ',
       desc: 'Grilled or Fried, Lettuce, Tomato, Onion, Mayo'
@@ -69,56 +69,56 @@ export default {
       desc: 'Add fried chicken for a little more crunch to our house salad'
     },
   ],
-  'Tenders... Marinated, then Grilled or Fried ':[
+  'Tenders':[
     {
       type: '5 Pcs ..... $5.99 ',
-      desc: ''
+      desc: '... Marinated, then Grilled or Fried '
     },
     {
       type: '10 Pcs ... $10.99 ',
-      desc: ''
+      desc: '... Marinated, then Grilled or Fried '
     },
     {
       type: '15 Pcs ... $15.99 ',
-      desc: ''
+      desc: '... Marinated, then Grilled or Fried '
     },
     {
       type: '20 Pcs ... $19.99 ',
-      desc: ''
+      desc: '... Marinated, then Grilled or Fried '
     },
     {
       type: '25 Pcs ...  $24.99 ',
-      desc: ''
+      desc: '... Marinated, then Grilled or Fried '
     },
     {
       type: '30 Pcs ...  $29.99 ',
-      desc: ''
+      desc: '... Marinated, then Grilled or Fried '
     },
   ],
-  'Wings ... Tossed In Your Favorite Sauce ':[
+  'Wings':[
     {
       type: '10 ........... $6.49 ',
-      desc: ''
+      desc: ' ... Tossed In Your Favorite Sauce '
     },
     {
       type: '20 .......... $11.99 ',
-      desc: ''
+      desc: ' ... Tossed In Your Favorite Sauce '
     },
     {
       type: '30 .......... $16.99 ',
-      desc: ''
+      desc: ' ... Tossed In Your Favorite Sauce '
     },
     {
       type: '40 .......... $20.99 ',
-      desc: ''
+      desc: ' ... Tossed In Your Favorite Sauce '
     },
     {
       type: '50 .......... $25.99 ',
-      desc: ''
+      desc: ' ... Tossed In Your Favorite Sauce '
     },
     {
       type: '100 ......... $47.99 ',
-      desc: ''
+      desc: ' ... Tossed In Your Favorite Sauce '
     },
   ],
   'Sides':[
