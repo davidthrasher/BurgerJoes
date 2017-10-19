@@ -26,6 +26,7 @@ class Modal extends React.Component {
       borderRadius: 5,
       maxWidth: 1000,
       minHeight: 300,
+      maxHeight: 800,
       margin: '0 auto',
       padding: 30,
       zIndex: 99999,
