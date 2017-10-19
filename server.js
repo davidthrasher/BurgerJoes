@@ -31,6 +31,6 @@ db.sequelize.sync({force: false}).then(function() {
 	});
 });
 
-app.listen(PORT, function() {
-  console.log(`🌎 ==> Server now on port ${PORT}!`);
-});
+// app.listen(PORT, function() {
+//   console.log(`🌎 ==> Server now on port ${PORT}!`);
+// });
