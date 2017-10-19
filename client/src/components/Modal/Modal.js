@@ -29,7 +29,7 @@ class Modal extends React.Component {
       margin: '0 auto',
       padding: 30,
       zIndex: 99999,
-      overflow: auto;
+      overflow:'auto'
     };
 
     return (
