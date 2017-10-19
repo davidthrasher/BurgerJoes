@@ -1,4 +1,4 @@
-
+const router = require("express").Router();
 var db = require("../models");
 
 module.exports = function(app) {
@@ -14,3 +14,4 @@ module.exports = function(app) {
   });
 
 };
+module.exports = router;
