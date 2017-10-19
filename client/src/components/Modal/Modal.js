@@ -28,7 +28,8 @@ class Modal extends React.Component {
       minHeight: 300,
       margin: '0 auto',
       padding: 30,
-      zIndex: 99999
+      zIndex: 99999,
+      overflow: auto;
     };
 
     return (
