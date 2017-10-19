@@ -4,6 +4,7 @@ const path = require("path");
 const PORT = process.env.PORT || 3001;
 const app = express();
 var db = require("./models");
+const Sequelize = require('sequelize');
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
@@ -24,12 +25,12 @@ app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-// db.sequelize.sync({force: false}).then(function() {
-// 	app.listen(PORT, function(err) {
-// 		if (err) throw err;
-// 		console.log("Listening on port: " + PORT);
-// 	});
-// });
+db.sequelize.sync({force: false}).then(function() {
+	app.listen(PORT, function(err) {
+		if (err) throw err;
+		console.log("Listening on port: " + PORT);
+	});
+});
 
 app.listen(PORT, function() {
   console.log(`🌎 ==> Server now on port ${PORT}!`);
