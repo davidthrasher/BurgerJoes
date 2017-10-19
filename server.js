@@ -1,7 +1,7 @@
 const express = require("express");
 var bodyParser = require('body-parser');
 const path = require("path");
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 7000;
 const app = express();
 var db = require("./models");
 const Sequelize = require('sequelize');
