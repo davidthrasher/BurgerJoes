@@ -1,6 +1,6 @@
 
 var db = require("../models");
-
+const router = require("express").Router();
 module.exports = function(app) {
 
   router.post("/order", function(req, res) {
