@@ -10,7 +10,9 @@ class Burgerversity extends Component {
       <div>
 
         <Nav {...this.props}/>
-
+        <main>
+          <h1 className="center white-text"> Burgerversity rewards program coming soon!</h1>
+        </main>
         <Footer />
       </div>
     );

@@ -3,7 +3,7 @@ var db = require("../models");
 const router = require("express").Router();
 module.exports = function(app) {
 
-  router.post("/order", function(req, res) {
+  router.post("/api/menu/order", function(req, res) {
     db.Orders.create([{
           orderNumber: req.body.menuItem[i],
           menuId: req.body.menuItem[i],
