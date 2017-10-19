@@ -1,4 +1,4 @@
-const router = express.Router();
+// const router = express.Router();
 var db = require("../models");
 const router = require("express").Router();
 module.exports = function(app) {
