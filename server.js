@@ -1,5 +1,6 @@
 const express = require("express");
 var bodyParser = require('body-parser');
+const methodOverride = require("method-override");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -18,7 +19,7 @@ app.use(function(req, res, next) {
 });
 
 
-require("./routes/routes.js")(app);// Send every request to the React app
+const routes = require("./routes/routes.js")(app);// Send every request to the React app
 // Define any API routes before this runs
 app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
